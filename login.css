@@ -1,6 +1,188 @@
-
-
-body{
-    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
-    
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+nav {
+  width: 100%;
+}
+.mobile-nav {
+  padding: 0 23px 0 16px;
+  height: 72px;
+  display: flex;
+  border-bottom: 1px solid #f2f4f7;
+  justify-content: space-between;
+  align-items: center;
+}
+.navlogo-half {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.logo-text {
+  padding-left: 9.83px;
+}
+.hamburger {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  object-fit: contain;
+}
+.form-card-container {
+  display: flex;
+  justify-content: center;
+}
+.form-card {
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 48px;
+}
+.primary-text {
+  /* font-family: 'Inter'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #101828;
+  text-align: center;
+  padding-top: 24px;
+}
+.secondary-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #667085;
+  padding-top: 8px;
+}
+
+.form {
+  width: 100%;
+  padding: 32px 16px 0 16px;
+  display: flex;
+  flex-direction: column;
+}
+.input-box {
+  padding: 10px 14px;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+.input-box ::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+.label-password {
+  padding: 20px 0 6px 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #344054;
+}
+.label-email {
+  padding: 0 0 6px 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #344054;
+}
+
+.checkbox-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 26px 0 24px 0;
+}
+.checkbox-lefthalf {
+  display: flex;
+}
+.checkbox {
+  width: 16px;
+  height: 16px;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  border-radius: 4px;
+}
+.checkbox-text {
+  padding-left: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #344054;
+}
+
+p a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6941c6;
+}
+
+.email-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.button-sign {
+  padding: 10px 18px;
+  background: #7f56d9;
+  border: 1px solid #7f56d9;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.button-google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344054;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  padding: 10px 16px;
+  margin: 16px 0 32px 0;
+}
+.button-google img{
+    height: 24px;
+    padding-right: 12px;
+}
+.bottom-text{
+    text-align: center;
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #667085;
+gap: 4px;
+padding-bottom: 212px;
+}
+.bottom-text a{
+    font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+text-decoration: none;
+color: #6941C6;
+}
