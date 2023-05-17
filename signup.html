@@ -44,25 +44,55 @@
             <div class="card">
 
                 <header>
-                    <div class="logo"><img src="images/logo-large.png" alt="logo"></div>
-                    <div class="heading semibold">Login to your account</div>
-                    <div class="sub-heading regular md">Welcome back! Please enter your details.</div>
+                    <div class="logo lft-align"><img src="images/logo-large.png" alt="logo"></div>
+                    <div class="heading lft-align semibold">Sign Up</div>
+                    <div class="sub-heading lft-align regular md">Start your 30-day free trial.</div>
                 </header>
 
                 <div class="form">
                     <form class="form-container" action="">
 
                         <div class="input-container">
-                            <label class="label sm medium"" for=" email">Email</label>
+                            <label class="label sm medium" for="name">Name*</label>
+                            <input class="input-box md regular" type="text" id="name" name="name"
+                                placeholder="Enter your name">
+                        </div>
+                        <div class="input-container">
+                            <label class="label sm medium" for="email">Email*</label>
                             <input class="input-box md regular" type="email" id="email" name="email"
                                 placeholder="Enter your email">
                         </div>
-
                         <div class="input-container">
-                            <label class="label sm medium" for="password">Password</label>
+                            <label class="label sm medium" for="password">Password*</label>
                             <input class="input-box" type="password" id="password" name="password"
                                 placeholder="••••••••">
                         </div>
+                        <div class="input-container">
+                            <label class="label sm medium" for="c-password">Confirm Password*</label>
+                            <input class="input-box" type="password" id="c-password" name="password"
+                                placeholder="••••••••">
+                        </div>
+                        <div class="input-container">
+                            <label class="label sm medium" for="date">Date of Birth*</label>
+                            <input class="input-box md regular" type="date" id="date" name="date"
+                                placeholder="Enter your date">
+                        </div>
+                        <div class="input-container">
+                            <label class="label sm medium" for="description">Description*</label>
+                            <textarea class="input-box description-box md regular" type="" id="description" name="email"
+                                placeholder="Enter Description"></textarea>
+                        </div>
+                        <div class="input-container">
+                            <label class="label sm medium" for=" city">City*</label>
+                            <select class="input-box" name="city" id="city">
+                                <option value="Kathmandu">Kathmandu</option>
+                                <option value="Lalitpur">Lalitpur</option>
+                                <option value="Bhaktapur">Bhaktapur</option>
+                                <option value="Dhulikhel">Dhulikhel</option>
+                              </select>
+                        </div>
+
+                        
 
                         <div class="checkbox-container" action="">
 
@@ -74,18 +104,20 @@
                             <a class="checkbox-righthalf sm semibold" href="forgot"> Forgot Password</a>
                         </div>
 
-                        <button class="butn button-sign md semibold"> Sign in</button>
+                        <button class="butn button-sign md semibold">  Create account</button>
 
                     </form>
 
                     <button class="butn button-social md semibold"><img src="images/Social icon.png" alt="google-logo">Sign in with Google</button>
 
-                    <div class="bottom-text sm regular">Don’t have an account? <a href="signup.html" class="sm semibold">Sign up</a></div>
+                    <div class="bottom-text sm regular">Already have an account? <a href="" class="sm semibold">Login In</a></div>
                 </div>
                   
             </div>
         </div>
     </main>
+    <footer><div class="leftfooter sm regular">© Untitled UI 2077</div>
+    <div class="rightfooter sm regular"><img src="images/mailicon.png" alt=""> help@untitledui.com</div></footer>
 
 
 
