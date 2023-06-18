@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/login.css">
+    <link rel="stylesheet" href="/style/root.css">
+
+    <link rel="icon" href="/images/logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>SignUp page</title>
+
+</head>
+
+<body>
+    <nav>
+        <div class="main-nav">
+            <div class="navleft-half">
+                <div>
+                    <a href="login.html">
+                        <img src="/images/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="logo-text">
+                    <img src="/images/Vector.svg" alt="logo-text">
+                </div>
+                <ul class="nav-items-container">
+                    <li class="nav-items">
+                        Home
+                    </li>
+                    <li class="nav-items nav-dropdown-container">
+                        <a href="">
+                            Products
+                            <img class="rotate-icon" src="/images/arrow-icon.svg" alt="">
+                        </a>
+                        <ul class="dropdown-items-container">
+                            <li class="nav-dropdown-items">
+                                offers
+                            </li>
+                            <li class="nav-dropdown-items">
+                                services
+                            </li>
+                            <li class="nav-dropdown-items">
+                                discounts
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-items nav-dropdown-container">
+                        <a href="">
+                            Resources
+                            <img class="rotate-icon" src="/images/arrow-icon.svg" alt="">
+                        </a>
+                        <ul class="dropdown-items-container">
+                            <li class="nav-dropdown-items">
+                                offers
+                            </li>
+                            <li class="nav-dropdown-items">
+                                services
+                            </li>
+                            <li class="nav-dropdown-items">
+                                discounts
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-items ">
+                        Pricing
+                    </li>
+                </ul>
+            </div>
+            <div class="navright-half">
+                <a href="login.html" class=" md semibold button-login">
+                    Login
+                </a>
+                <a href="signup.html" class="btn button-primary md semibold">
+                    Sign Up
+                </a>
+            </div>
+
+
+            <div class="hamburger">
+                <img src="/images/Icon.svg" alt="icon">
+            </div>
+        </div>
+
+
+
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="card">
+
+                <header class="header lft-align">
+                    <div class="logo ">
+                        <img src="/images/logo-large.png" alt="logo">
+                    </div>
+                    <div class="heading  semibold">
+                        Sign Up
+                    </div>
+                    <div class="sub-heading  regular md">
+                        Start your 30-day free trial.
+                    </div>
+                </header>
+
+                <div class="form">
+                    <form class="form-container" action="" id="form">
+
+                        <div class="input-container">
+                            <label class="label " for="name">
+                                Name*
+                            </label>
+                            <input class="input-box md regular" type="text" id="name" name="name"
+                                placeholder="Enter your name">
+                        </div>
+                        <div class="input-container">
+                            <label class="label" for="email">
+                                Email*
+                            </label>
+                            <input class="input-box md regular" type="email" id="email" name="email"
+                                placeholder="Enter your email">
+                        </div>
+                        <div class="input-container">
+                            <label class="label" for="password">
+                                Password*
+                            </label>
+                            <input class="input-box" type="password" id="password" name="password"
+                                placeholder="••••••••">
+                        </div>
+                        <div class="input-container">
+                            <label class="label" for="c-password">
+                                Confirm Password*
+                            </label>
+                            <input class="input-box" type="password" id="c-password" name="password"
+                                placeholder="••••••••">
+                        </div>
+                        <div class="input-container">
+                            <label class="label" for="date">
+                                Date of Birth*
+                            </label>
+                            <input class="input-box md regular" type="date" id="date" name="date">
+                        </div>
+                        <div class="input-container sm medium">
+                            Gender*
+                            <div class="radio-container" id="">
+                                <div class="radio-items">
+                                    <label for="gender">
+                                        Male
+                                    </label>
+                                    <input type="radio" id="male" name="gender" value="Male">
+                                </div>
+                                <div class="radio-items">
+                                    <label for="female">
+                                        Female
+                                    </label>
+                                    <input type="radio" id="female" name="gender" value="female">
+                                </div>
+                                <div class="radio-items">
+                                    <label for="other">
+                                        Other
+                                    </label>
+                                    <input type="radio" id="other" name="gender" value="other">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="input-container">
+                            <label class="label" for="description">
+                                Description*
+                            </label>
+                            <textarea class="input-box description-box md regular" type="" id="description" name="email"
+                                placeholder="Enter Description">
+                        </textarea>
+                        </div>
+                        <div class="input-container">
+                            <label class="label" for=" city">
+                                City*
+                            </label>
+                            <select class="input-box" name="city" id="city">
+                                <option value="Kathmandu">
+                                    Kathmandu
+                                </option>
+                                <option value="Lalitpur">
+                                    Lalitpur
+                                </option>
+                                <option value="Bhaktapur">
+                                    Bhaktapur
+                                </option>
+                                <option value="Dhulikhel">
+                                    Dhulikhel
+                                </option>
+                            </select>
+                        </div>
+
+                        <div class="checkbox-container" action="">
+
+                            <div class="checkbox-lefthalf">
+                                <input type="checkbox" id="check" name="30days">
+                                <label class="checkbox-text sm medium " for="check">
+                                    Remember for 30 days
+                                </label>
+                            </div>
+
+                            <a class="checkbox-righthalf sm semibold" href="forgot">
+                                Forgot Password
+                            </a>
+                        </div>
+
+                        <button class="btn button-primary md semibold" style="  width: 100%;" type="submit">
+                            Sign in
+                        </button>
+
+                    </form>
+
+                    <button class="btn button-secondary md semibold ">
+                        <img src="/images/Social icon.png" alt="google-logo">
+                        Sign in with Google
+                    </button>
+
+                    <div class="bottom-text sm regular">
+                        Already have an account?
+                        <a href="login.html" class="sm semibold">
+                            Login In
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="leftfooter sm regular">
+            © Untitled UI 2077
+        </div>
+        <div class="rightfooter sm regular">
+            <img src="/images/mailicon.png" alt="">
+            help@untitledui.com
+        </div>
+    </footer>
+    <script src="/script/signup.js"></script>
+</body>
+
+</html>

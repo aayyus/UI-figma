@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/dashboard.css">
+    <link rel="stylesheet" href="/style/root.css">
+    <link rel="stylesheet" href="/style/settings.css">
+    <link rel="icon" href="/images/logo.png">
+
+    <link rel="icon" href="images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Settings</title>
+</head>
+
+<body id="scroll-style">
+    <div class="body">
+        <nav class="nav">
+            <div class="mobile-nav">
+                <a class="left-nav" id="hamburger">
+                    <img src="/images/dashboard-hamburger.png" alt="hamburger">
+                </a>
+                <div class="right-nav">
+                    <img src="/images/logo.png" alt="">
+                    <img class="mobile-logo-text" src="/images/Vector.svg" alt="logo-text">
+                </div>
+
+            </div>
+            <div class="side-nav"  id="scroll-style">
+                <div class="upper-sidenav" id="sidenav">
+                    <div class="header-uppernav">
+                        <div class="logo">
+                            <img src="/images/logo.png" alt="logo">
+
+                            <img class="desktop-logo-text" src="/images/desktop-logo-text.svg" alt="logo-text">
+                        </div>
+
+                        <form class="input-nav-container">
+                            <label class="search-bar-img" for="search">
+                                <img src="/images/search-img-light.svg" alt="search">
+                            </label>
+                            <input autocomplete="off" class="input-nav input" type="text" id="search" name="search"
+                                placeholder="Search">
+                        </form>
+                    </div>
+                    <div class="section-uppernav">
+                        <ul>
+                            <li class="sidenav-items">
+                                <img src="/images/icon-home.svg">
+                                <p>Home</p>
+                            </li>
+                            <a href="/index/dashboard.html"><li class="sidenav-items" >
+                                <img src="/images/Icon-dashboard.svg" >
+                                 <p> Dashboard</p>
+                            </li></a>
+                            <li class="sidenav-items">
+                                <img src="/images/Icon-project.svg">
+                                <p>Project</p>
+                            </li>
+                            <li class="sidenav-items">
+                                <img src="/images/Icon-tasks.svg">
+                                <p>Task</p>
+                            </li>
+                            <li class="sidenav-items">
+                                <img src="/images/Icon-reporting.svg">
+                                <p>Reporting</p>
+                            </li>
+                            <li class="sidenav-items ">
+                                <img src="/images/Icon-users.svg">
+                                <p>Users</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="lower-sidenav">
+                        <ul>
+                            <li class="sidenav-items ">
+                                <img src="/images/Icon-dashboard.svg">
+                                <p>Support</p>
+                            </li>
+                            <li class="sidenav-items ">
+                                <img src="/images/Icon-settings.svg">
+                                <p>Settings</p>
+                            </li>
+                        </ul>
+
+                        <div class="progress-block">
+                            <span class="percent-block">
+                                80%
+                            </span>
+                            <img class="round-progress" src="/images/round-progress.svg" alt="progress-bar">
+                            <div class="progress-text-1">
+                                <p class="sm medium clr-white">
+                                    Used space
+                                </p>
+                                <p class="sm regular clr-gray">
+                                    Your team has used 80% of your
+                                    <br> available space. Need
+                                    more?
+                                </p>
+                            </div>
+
+                            <div class="progress-text-2 sm semibold">
+                                <p class="clr-gray">
+                                    Dismiss
+                                </p>
+                                <p class="clr-white">
+                                    Upgrade plan
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="lower-logout">
+                            <div class="account-block">
+                                <img src="/images/account-photo.svg" alt="user" height="40px">
+                                <div class="account-name-block">
+                                    <p class="sm semibold">
+                                        Olivia Rhye
+                                    </p>
+                                    <p class="sm regular">
+                                        olivia@untitledui.com
+                                    </p>
+                                </div>
+
+                                <img class="logout-img" src="/images/icon-logout.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <main class="main-body">
+
+            <header class="setting-header">
+                <h1 class="heading">
+                    Settings
+                </h1>
+                <nav>
+                    <div class="dropdown-container-header" for="head">
+                        <img class="dropdown-icon-head" src="/images/arrow-icon.svg" alt="">
+                        <select name="head" id="head" class="dropdown-items">
+
+                            <option value="Details">My Details</option>
+                            <option value="Profile">Profile</option>
+                            <option value="Password">Password</option>
+                            <option value="Team">Team</option>
+                            <option value="Plan">Plan</option>
+                            <option value="Billing">Billing</option>
+                            <option value="Email">Email</option>
+                            <option value="Notifications">Notifications</option>
+                            <option value="Integrations">Integrations</option>
+                            <option value="API">API</option>
+                        </select>
+                    </div>
+                    <ul class="setting-nav">
+                        <li class="nav-items">My Details</li>
+                        <li class="nav-items">Profile</li>
+                        <li class="nav-items">Password</li>
+                        <li class="nav-items">Team</li>
+                        <li class="nav-items">Plan</li>
+                        <li class="nav-items">Billing</li>
+                        <li class="nav-items">Email</li>
+                        <li class="nav-items">Notifications</li>
+                        <li class="nav-items">Integrations</li>
+                        <li class="nav-items">API</li>
+                    </ul>
+                </nav>
+            </header>
+            <form action="" id="form">
+                <div class="setting-heading border-btm">
+                    <div class="heading-desktop">
+                        <h1 class="lg medium">Personal info</h1>
+                        <h2 class="sm regular">Update your photo and personal details here.</h2>
+                    </div>
+                    <div class="heading-mobile">
+                        <h1 class="lg medium">Team Members</h1>
+                        <h2 class="sm regular">Update your photo and personal details here.</h2>
+                    </div>
+                    <div class="btn-container" style="margin: 0;">
+                        <button class="btn button-secondary" style="margin: 0;">
+
+                            Cancel
+                        </button>
+                        <button  type="submit" class="btn button-primary" style="margin: 0;">
+
+                            Save
+                        </button>
+                    </div>
+                </div>
+
+                <div class="name-block-mobile">
+
+                    <div class="input-block">
+                        <label class="label" for=" email">First Name</label>
+                        <input class="input-box" type="text" id="firstName-mobile"  placeholder="Olivia" >
+                    </div>
+                    <div class="input-block border-btm">
+                        <label class="label" for=" email">Last Name</label>
+                        <input class="input-box" type="text" id="lastName-mobile"placeholder="Rhye" >
+                    </div>
+                </div>
+                <div class=" border-btm">
+                    <div class="input-block name-block-desktop">
+                        <label class="label" for=" email">Name</label>
+                        <div class="input-block-name">
+                            <input class="input-box-name" type="text" id="firstName"  placeholder="Olivia"  >
+                            <input class="input-box-name" type="text" id="lastName" placeholder="Rhye" >
+                        </div>       
+
+                </div>
+
+                <div class="input-block border-btm">
+
+                    <label class="label" for=" email">
+
+                        Email address</label>
+                    <div class="email-block">
+                        <img class="dropdown-icon-mail" src="/images/mailicon.png" alt="">
+
+                        <input class="input-box " type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                </div>
+
+                <div class="file-container border-btm">
+                    <div>
+                        <h3 class="text-heading">Your Photo</h3>
+                        <p class="text-subheading">This will be displayed on your profile.</p>
+                    </div>
+                    <div class="img-box" >
+                    <img class="img-profile"  id="image" src="/images/account-photo.svg" alt="profile-pic">
+                </div>
+
+                    <div class="file-block">
+                        <label for="file" class="file-opener">
+                            <input class=" file-box" type="file" id="file" name="file" placeholder="" >
+
+                            <img class="import-button-file" src="/images/import.svg" alt="import">
+                            <p class="sm regular"><span class="sm semibold">Click to upload</span> or drag and drop</p>
+                            <p class="xs regular">SVG, PNG, JPG or GIF (max. 800x400px)</p>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="input-block border-btm">
+                    <label class="label" for="role" >Role</label>
+                    <input class="input-box" type="text" id="role" name="role" placeholder="Producer" required>
+                </div>
+
+                <div class="dropdown-container border-btm">
+
+                    <label for="drop-menu" class="label">Country</label>
+                    <div class="dropdown-block">
+                        <img class="dropdown-icon" src="/images/arrow-icon.svg" alt="">
+                        <select name="head" id="drop-menu" class="dropdown-items">
+                            <option value="Details">United-States</option>
+                            <option value="Profile">Nepal</option>
+                            <option value="Password">India</option>
+                            <option value="Team">Bhutan</option>
+                            <option value="Plan">Bangladesh</option>
+                            <option value="Billing">Russia</option>
+                            <option value="Email">Canada</option>
+                            <option value="Notifications">Egypt</option>
+                            <option value="Integrations">Croatia</option>
+                            <option value="API">Norway</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="dropdown-container border-btm" for="drop-menu">
+
+                    <label for="drop-menu" class="label">Time Zone</label>
+                    <div class="dropdown-block">
+                        <img class="dropdown-icon-left" src="/images/clock-icon.svg" alt="">
+                        <img class="dropdown-icon" src="/images/arrow-icon.svg" alt="">
+                        <select name="head" id="drop-menu" class="dropdown-items dropdown-clock">
+                            <option value="Details">
+                                Pacific Standard Time (PST)
+                                UTC−08:00
+                            </option>
+                            <option value="Profile">Profile</option>
+                            <option value="Password">Password</option>
+                            <option value="Team">Team</option>
+                            <option value="Plan">Plan</option>
+                            <option value="Billing">Billing</option>
+                            <option value="Email">Email</option>
+                            <option value="Notifications">Notifications</option>
+                            <option value="Integrations">Integrations</option>
+                            <option value="API">API</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="bio-container border-btm">
+                    <div class="bio-text">
+                        <h3 class="text-heading">Bio</h3>
+                        <p class="text-subheading" style="color: #667085;">Share a few snippets of your work.</p>
+                    </div>
+                    <div class="bio-block-outer">
+                        <div class="bio-block-inner">
+                            <div class="dropdown-block">
+                                <img class="dropdown-icon" src="/images/arrow-icon.svg" alt="">
+                                <select name="head" id="drop-menu" class="dropdown-items-bio dropdown-items">
+
+                                    <option value="Details">
+                                        Normal Text
+                                    </option>
+                                    <option value="Profile">Bold</option>
+                                    <option value="Password">Itallic</option>
+
+                                </select>
+                            </div>
+
+                            <div class="fontedit-icons">
+                                <img src="/images/font-edit-bold.svg" alt="bold">
+                                <img src="/images/font-edit-italic.svg" alt="italic">
+                                <img src="/images/font-edit-space.svg" alt="icon">
+                                <img src="/images/font-edit-bulletlist.svg" alt="bullet-list">
+                                <img src="/images/font-edit-numberlist.svg" alt="number-list">
+                            </div>
+                        </div>
+
+                        <div class="description-container">
+
+                            <textarea class="description-box  md regular" type="" id="description" name="email"
+                                placeholder="I'm a Product Designer based in Melbourne, Australia. I specialise in UX/UI design, brand strategy, and Webflow development."></textarea>
+                            <p class="text-subheading">275 characters left</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="file-container border-btm">
+                    <div class="upload-text-block">
+                        <h3 class="text-heading">Portfolio projects</h3>
+                        <p class="text-subheading">Share a few snippets of your work.</p>
+                    </div>
+
+
+                    <div class="file-block-upload file-block">
+                        <label for="file" class="file-opener">
+                            <input class=" file-box" type="file" id="file" name="file" placeholder="">
+
+                            <img class="import-button-file" src="/images/import.svg" alt="import">
+                            <p class="sm regular"><span class="sm semibold">Click to upload</span> or drag and drop</p>
+                            <p class="xs regular">SVG, PNG, JPG or GIF (max. 800x400px)</p>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="btn-container-footer">
+                    <button class="btn button-secondary" style="margin: 0;">
+
+                        Cancel
+                    </button>
+                    <button  type="submit" class="btn button-primary" style="margin: 0;">
+
+                        Save
+                    </button>
+                </div>
+
+            </form>
+
+        </main>
+    </div>
+   
+   
+    <script src="../script/setting.js"></script>
+</body>
+
+</html>

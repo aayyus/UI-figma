@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/dashboard.css">
+    <link rel="stylesheet" href="/style/root.css">
+    <link rel="icon" href="/images/logo.png">
+    <link rel="icon" href="images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Dashboard</title>
+</head>
+
+<body id="scroll-style">
+    <div class="body">
+        <nav class="nav">
+            <div class="mobile-nav">
+                <div class="left-nav" id="hamburger">
+                    <img src="/images/dashboard-hamburger.png" alt="hamburger">
+                </div>
+                <div class="right-nav">
+                    <img src="/images/logo.png" alt="">
+                    <img class="mobile-logo-text" src="/images/Vector.svg" alt="logo-text">
+                </div>
+
+            </div>
+            <div class="side-nav"  id="scroll-style">
+                <div class="upper-sidenav" id="sidenav">
+                    <div class="header-uppernav">
+                        <div class="logo">
+                            <img src="/images/logo.png" alt="logo">
+
+                            <img class="desktop-logo-text" src="/images/desktop-logo-text.svg" alt="logo-text">
+                        </div>
+
+                        <form class="input-nav-container">
+                            <label class="search-bar-img" for="search">
+                                <img src="/images/search-img-light.svg" alt="search">
+                            </label>
+                            <input autocomplete="off" class="input-nav input" type="text" id="search" name="search"
+                                placeholder="Search">
+                        </form>
+                    </div>
+                    <div class="section-uppernav">
+                        <ul>
+                            <li class="sidenav-items">
+                                <img src="/images/icon-home.svg">
+                                <p>Home</p>
+                            </li>
+                            <li class="sidenav-items">
+                                <img src="/images/Icon-dashboard.svg">
+                                <p>Dashboard</p>
+                            </li>
+                            <li class="sidenav-items">
+                                <img src="/images/Icon-project.svg">
+                                <p>Project</p>
+                            </li>
+                            <li class="sidenav-items">
+                                <img src="/images/Icon-tasks.svg">
+                                <p>Task</p>
+                            </li>
+                            <li class="sidenav-items">
+                                <img src="/images/Icon-reporting.svg">
+                                <p>Reporting</p>
+                            </li>
+                            <li class="sidenav-items ">
+                                <img src="/images/Icon-users.svg">
+                                <p>Users</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="lower-sidenav">
+                        <ul>
+                            <li class="sidenav-items ">
+                                <img src="/images/Icon-dashboard.svg">
+                                <p>Support</p>
+                            </li>
+                            <a href="/index/setting.html"> <li class="sidenav-items ">
+                                <img src="/images/Icon-settings.svg">
+                                <p>Settings</p>
+                            </li></a>
+                        </ul>
+
+                        <div class="progress-block">
+                            <span class="percent-block">
+                                80%
+                            </span>
+                            <img class="round-progress" src="/images/round-progress.svg" alt="progress-bar">
+                            <div class="progress-text-1">
+                                <p class="sm medium clr-white">
+                                    Used space
+                                </p>
+                                <p class="sm regular clr-gray">
+                                    Your team has used 80% of your
+                                    <br> available space. Need
+                                    more?
+                                </p>
+                            </div>
+
+                            <div class="progress-text-2 sm semibold">
+                                <p class="clr-gray">
+                                    Dismiss
+                                </p>
+                                <p class="clr-white">
+                                    Upgrade plan
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="lower-logout">
+                            <div class="account-block">
+                                <div class="img-box">
+                                <img src="/images/acc-photo-1.png" alt="user">
+                            </div>
+                                <div class="account-name-block">
+                                    <p class="sm semibold">
+                                        Olivia Rhye
+                                    </p>
+                                    <p class="sm regular">
+                                        olivia@untitledui.com
+                                    </p>
+                                </div>
+                                <a href="login.html">
+                                <img class="logout-img" src="/images/icon-logout.svg" alt="">
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <main class="background">
+            <div class="main-body">
+                <header class="header">
+                    <div class="heading-text">
+                        <h1 class="heading">
+                            Welcome back, Olivia
+                        </h1>
+                        <h2 class="sub-heading">
+                            Track, manage and forecast your customers and orders.
+                        </h2>
+                    </div>
+
+                    <div class="btn-container">
+                        <button class="btn button-secondary">
+                            <img class="img" src="/images/import.svg" alt="import-logo">
+                            Import
+                        </button>
+                        <button class="btn button-primary">
+                            <img class="img" src="/images/plus.svg" alt="add-logo">
+                            Add
+                        </button>
+                    </div>
+                </header>
+
+                <section class="card-section">
+                    <div class="data-card">
+                        <div class="data-header">
+                            <p>
+                                Total Customers
+                            </p>
+                            <a href="">
+                                <img class="img" src="/images/three-dots.png" alt="three-dots">
+                            </a>
+                        </div>
+
+                        <div class="data-info">
+                            <div class="left-info">
+                                <p class="heading-info" id="total-customer">
+                                    
+                                </p>
+                                <div class="sub-heading-info">
+                                    <img class="img" src="/images/green-arrow-up.svg" alt="arrow">
+                                    <span class="success">
+                                        40%
+                                    </span>
+                                    <p>
+                                        vs last month
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right-info">
+                                <img src="/images/Line1.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="data-card">
+                        <div class="data-header">
+                            <p>
+                                Members
+                            </p>
+                            <a href="">
+                                <img class="img" src="/images/three-dots.png" alt="three-dots">
+                            </a>
+                        </div>
+
+                        <div class="data-info">
+                            <div class="left-info">
+                                <p class="heading-info">
+                                    1,210
+                                </p>
+                                <div class="sub-heading-info">
+                                    <img class="img" src="/images/red-arrow-down.svg" alt="arrow">
+                                    <span class="error">
+                                        10%
+                                    </span>
+                                    <p>
+                                        vs last month
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right-info">
+                                <img src="/images/Line2.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="data-card">
+                        <div class="data-header">
+                            <p>
+                                Active Now
+                            </p>
+                            <a href="">
+                                <img class="img" src="/images/three-dots.png" alt="three-dots">
+                            </a>
+                        </div>
+
+                        <div class="data-info">
+
+                            <div class="left-info">
+                                <p class="heading-info">
+                                    316
+                                </p>
+                                <div class="sub-heading-info">
+                                    <img class="img" src="/images/green-arrow-up.svg" alt="arrow">
+                                    <span class="success">
+                                        20%
+                                    </span>
+                                    <p>
+                                        vs last month
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="right-info">
+                                <img src="/images/Line3.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="filter-section">
+                    <form class="input-container">
+                        <label class="search-bar-img" for="">
+                            <img src="/images/search.svg" alt="search">
+                        </label>
+                        <input class="input" autocomplete="off" type="text" id="searchInput" name="search"
+                            placeholder="Search">
+                    </form>
+
+                    <div class="filter-lefthalf">
+                        <button class="btn input-container filter">
+                            <img src="/images/pyramid-line.svg" alt="icon">
+                            <p>
+                                More filters
+                            </p>
+                        </button>
+                        <div class="filter-container">
+
+                            <div class="filter-items">
+                                <p>
+                                    All time
+                                </p>
+                                <img src="/images/cross-icon.svg" alt="icon">
+                            </div>
+
+                            <div class="filter-items">
+                                <p>
+                                    US,AU,+4
+                                </p>
+                                <img src="/images/cross-icon.svg" alt="icon">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="table-section" id="scroll-style">
+                    <div class="table-border">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th class="table-heading th column-1">
+                                    <label class="container-checkbox-header">
+                                        <div class=" checkmark">
+                                        </div>
+                                        <input type="checkbox" class="checkmark-default">
+                                        <label>
+                                            Company
+                                        </label>
+                                    </label>
+                                    <img src="/images/arrow-down.svg" alt="">
+                                </th>
+                                <th class="th">
+                                    Lisence Use
+                                </th>
+                                <th class="th" style="text-align: center;">
+                                    Status
+                                </th>
+                                <th class="th">
+                                    Users
+                                </th>
+                                <th class="th">
+                                    About
+                                </th>
+                            </tr>
+                        </thead>
+
+                           <tbody  id="table">
+
+                           </tbody>
+                        </table>
+
+
+                        <div class="table-footer">
+                            <div class="left-table-footer">
+                                <a  class="btn button-secondary" style="font-weight: 500; margin: 12px 0 16px 0;">
+                                    Previous
+                                </a>
+                                <a class="btn button-secondary" style="font-weight: 500;margin: 12px 0 16px 0;">
+                                    Next
+                                </a>
+                            </div>
+
+                            <div class="right-table-footer">
+                                <p>
+                                    Page 1 of 10
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+             
+
+                <footer>
+                    <div class="footer-container">
+                        <div class="footer-elements">
+                            <img src="/images/left-arrow.svg" alt="left-arrow">
+                            <p>
+                                Page 1 of 10
+                            </p>
+                            <img src="/images/right-arrow.svg" alt="right-arrow">
+
+                        </div>
+                    </div>
+
+                </footer>
+               
+            </div>
+            
+        </main>
+
+    </div>
+
+    <script src="../script/dashboard.js"></script>
+</body>
+
+</html>
